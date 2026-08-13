@@ -83,5 +83,4 @@ The complexity analysis highlights the inherent trade-offs in algorithm selectio
 
 Class diagram below illustrates the relationships between the main components of the system, emphasizing the use of polymorphism and strategy pattern for sorting algorithms.
 
-
-![mermaid-diagram-2026-08-07-160407.png](../../Downloads/mermaid-diagram-2026-08-07-160407.png)
+<img width="4072" height="3656" alt="mermaid-diagram-2026-08-07-160407" src="https://github.com/user-attachments/assets/9d1f7bfc-9b50-4ccf-9a0c-5ac2ce7e2c61" />
