@@ -14,23 +14,23 @@
 
 ##  Main Components
 
-### Layer 1 - Input (`Main.java`)
+### Layer 1 - Input (`src/main/java/com/march/legion/Main.java`)
 * CLI parameter parser
 * Input validation
 * Flow orchestrator
 
-### Layer 2 - Model (`model/`)
+### Layer 2 - Model (`src/main/java/com/march/legion/model`)
 * **Troop:** Base abstract class
 * **Polymorphic implementations:** Commander, Medic, Tank, Sniper, Infantry
 * **Validation:** Rank validation by type
 
-### Layer 3 - Domain (`battlefield/`)
+### Layer 3 - Domain (`src/main/java/com/march/legion/battlefield`)
 * **Battlefield:** Game "map"
 * **Orientation:** Enum for directions
 * **TroopType:** Enum for types and symbols
 * **Management:** NxN matrix management, positioning, and alignment
 
-### Layer 4 - Algorithms (`algorithm/`)
+### Layer 4 - Algorithms (`src/main/java/com/march/legion/algorithm`)
 * **SortStrategy:** Base interface
 * **Implementations:** QuickSort, MergeSort, HeapSort, CountingSort
 * **Design:** Strategy pattern for interchangeability
@@ -83,4 +83,4 @@ The complexity analysis highlights the inherent trade-offs in algorithm selectio
 
 Class diagram below illustrates the relationships between the main components of the system, emphasizing the use of polymorphism and strategy pattern for sorting algorithms.
 
-![mermaid-diagram-2026-08-07-160407.png](../../../../../../../../Downloads/mermaid-diagram-2026-08-07-160407.png)
+![mermaid-diagram-2026-08-07-160407.png](../../Downloads/mermaid-diagram-2026-08-07-160407.png)
